@@ -1,4 +1,4 @@
-function bS(arr, x) {
+function binarySearch(arr, x) {
   let n = arr.length;
   let s = 0;
   let e = n - 1;
@@ -15,3 +15,6 @@ console.log(bS([7, 10, 12, 17, 27, 40], 13));
 
 console.log(Number.MAX_VALUE);
 console.log(Number.MIN_VALUE);
+
+//! TC ==> O(n)
+//! SC ==> O(1)
