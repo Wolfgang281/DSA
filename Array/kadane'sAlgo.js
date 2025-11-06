@@ -13,3 +13,7 @@ function printSuffixArray(arr) {
   }
   console.log(arr);
 }
+
+let arr = [1, 2, 3, 4, 5];
+let result = [1, 3, 6, 10, 15];
+let res = [15, 14, 12, 9, 5];

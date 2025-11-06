@@ -22,7 +22,7 @@ function countFrequency(arr) {
   let map = new Map();
   let n = arr.length;
   for (let i = 0; i < n; i++) {
-    /* if (map.has(arr[i])) {
+    /*  if (map.has(arr[i])) {
       let oldValue = map.get(arr[i]);
       let newValue = oldValue + 1;
       map.set(arr[i], newValue);
@@ -32,5 +32,10 @@ function countFrequency(arr) {
     map.set(arr[i], (map.get(arr[i]) || 0) + 1);
   }
   console.log(map);
+  for (let [key, value] of map) {
+    console.log(key, value);
+  }
 }
 countFrequency(arr);
+
+//! for of loop
